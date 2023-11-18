@@ -53,16 +53,11 @@ now ypu can delete LVI-SAM folder in home
 
 ## Run the package
 
-1. Configure parameters:
-
-```
-Configure sensor parameters in the .yaml files in the ```config``` folder.
-```
-2. Run the launch file:
+1. Run the launch file:
 ```
 roslaunch lvi_sam run.launch
 ```
-3. Play existing bag files:
+2. Play existing bag files:
 ```
 rosbag play handheld.bag 
 ```
