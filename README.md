@@ -29,7 +29,7 @@ Use the following commands to download and compile the package.
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/Saifali4604/LIO_SAM_Noetic
+git clone https://github.com/Saifali4604/LVI_SAM_Noetic
 cd ..
 catkin_make
 ```
