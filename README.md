@@ -33,13 +33,16 @@ git clone https://github.com/Saifali4604/LVI_SAM_Noetic
 cd ..
 catkin_make
 ```
+**Note**
+due to some issue i was not able to upload 1 file its not important but it will be better if we add it.
 
+so to add it open new terminal 
 ```
 cd 
-git clone https://github.com/Saifali4604/LVI_SAM_Noetic
+git clone https://github.com/TixiaoShan/LVI-SAM
 ```
 open file maneger then LVI-SAM folder go to config and copy " brief_k10L6.bin " and paste it in catkin_ws/src/LVI_SAM_Noetic/config/
-now ypu can delete LVI-SAM folder in home
+now you can delete LVI-SAM folder in home
 
 ## Datasets
 
