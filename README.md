@@ -42,6 +42,7 @@ rm -rf LVI-SAM
 ```
 cd ~/lvi_sam
 catkin_make
+source ~/lvi_sam/devel/setup.bash
 ```
 
 ## Datasets
