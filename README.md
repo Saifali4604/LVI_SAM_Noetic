@@ -30,21 +30,12 @@ Use the following commands to download and compile the package.
 ```
 mkdir -p ~/lvi_sam/src
 cd ~/lvi_sam/src
-git clone https://github.com/Saifali4604/LVI_SAM_Noetic
-cd ..
-catkin_make
+git clone https://github.com/Saifali4604/LVI_SAM_Noetic && \
+cd && \
+git clone https://github.com/TixiaoShan/LVI-SAM && \
+cp LVI-SAM/config/brief_k10L6.bin lvi_sam/src/LVI_SAM_Noetic/config/ && \
+rm -rf LVI-SAM
 ```
-**Note**
-due to some issue i was not able to upload 1 file, its not important but it will be better if we add it.
-
-so to add it open new terminal 
-```
-cd 
-git clone https://github.com/TixiaoShan/LVI-SAM
-```
-open file maneger then LVI-SAM folder go to config and copy " brief_k10L6.bin " and paste it in catkin_ws/src/LVI_SAM_Noetic/config/
-
-now you can delete LVI-SAM folder in home
 
 ## Datasets
 
