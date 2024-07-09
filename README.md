@@ -39,6 +39,9 @@ cp LVI-SAM/config/brief_k10L6.bin lvi_sam/src/LVI_SAM_Noetic/config/ && \
 rm -rf LVI-SAM
 
 ```
+```
+cd ~/lvi_sam
+catkin make
 
 ## Datasets
 
