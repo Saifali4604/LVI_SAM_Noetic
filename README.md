@@ -30,10 +30,14 @@ Use the following commands to download and compile the package.
 ```
 mkdir -p ~/lvi_sam/src
 cd ~/lvi_sam/src
+```
+```
 git clone https://github.com/Saifali4604/LVI_SAM_Noetic && \
-cd && \ git clone https://github.com/TixiaoShan/LVI-SAM && \
+cd && \
+git clone https://github.com/TixiaoShan/LVI-SAM && \
 cp LVI-SAM/config/brief_k10L6.bin lvi_sam/src/LVI_SAM_Noetic/config/ && \
 rm -rf LVI-SAM
+
 ```
 
 ## Datasets
