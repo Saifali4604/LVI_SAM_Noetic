@@ -28,7 +28,7 @@
 Use the following commands to download and compile the package.
 
 ```
-mkdir -p  ~/lvi_sam/src
+mkdir -p ~/lvi_sam/src
 cd ~/lvi_sam/src
 git clone https://github.com/Saifali4604/LVI_SAM_Noetic
 cd ..
