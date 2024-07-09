@@ -41,7 +41,8 @@ rm -rf LVI-SAM
 ```
 ```
 cd ~/lvi_sam
-catkin make
+catkin_make
+```
 
 ## Datasets
 
